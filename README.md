@@ -8,4 +8,7 @@ The metric we have chosen has two parts :
 - How close the sum of all map seedings of all players are to the expected value (how good a team is overall)
 - How close the sum of map seedings of all players are to the expected value on each map (how well-rounded the team is)
 
-A few more adjustments are made to ensure playability. Please read the code for more information on how it is actually implemented.
+A few more adjustments are made to ensure playability, including trying to reduce the difference in timezones within teams.
+Please read the code for more information on how it is actually implemented.
+
+This code was written for the most part by 49Leo. Thanks to Briesmas for helping with some parts of the code and Chupalika for providing the json file.

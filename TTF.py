@@ -56,7 +56,7 @@ class Team :
 #Parses the qualifier results file into data usable by this prgram
 def open_qualifiers_file() :
     players = []
-    with open("egts2022.json", encoding = 'utf-8') as file :
+    with open("qualifiers.json", encoding = 'utf-8') as file :
         data = json.load(file)
         i = 0
         for player in data["Players"] :
